@@ -1,5 +1,5 @@
-@import 'partials/config';
-@import 'partials/menu';
+@import 'config';
+@import 'menu';
 
 * {
   box-sizing: border-box;
@@ -189,4 +189,4 @@ main {
   height: 60px;
 }
 
-@import 'partials/mobile';
+@import 'mobile';
