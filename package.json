@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "portafolio personal",
   "main": "index.js",
+  "homepage": "https://brianramirez24.github.io/portafolio_personal/",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Brian Alexander Ramirez Galeano",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "gh-pages": "^2.2.0"
   }
 }
